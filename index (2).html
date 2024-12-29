@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LibéronsLaParole</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Couleur de fond */
+            color: #333;
+        }
+        header {
+            background-color: #007bff; /* Couleur d'en-tête */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        img {
+          max-width: 200px; /* Ajuster la taille de l'image */
+          height: auto;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        footer {
+          background-color: #333;
+          color: white;
+          padding: 10px;
+          text-align: center;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://www.ip-paris.fr/sites/default/files/styles/actualite_full/public/pages/images/2023-07/photo%20principale.png?itok=Xpk8gV34" alt="Logo">
+        <h1>LibéronsLaParole</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#rdv">Prendre rendez-vous</a></li>
+            <li><a href="#harcelement">Le harcèlement, qu'est-ce que c'est ?</a></li>
+        </ul>
+    </nav>
+
+    <section id="rdv">
+        <h2>Prendre rendez-vous</h2>
+        <p>Veuillez remplir le formulaire ci-dessous pour prendre rendez-vous avec l'équipe d'ambassadeurs anti-harcèlement du Lycée Pierre de Fermat.</p>
+        <form action="mailto:stopauharcelement2120@gmail.com?subject=Demande de RDV" method="post" enctype="text/plain">
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" required aria-label="Votre nom"><br><br>
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" required aria-label="Votre adresse email"><br><br>
+            <label for="message">Message (Jour et heure souhaités entre 12h et 14h, du lundi au vendredi) :</label><br>
+            <textarea id="message" name="message" rows="4" required aria-label="Votre message"></textarea><br><br>
+            <input type="submit" value="Envoyer la demande">
+        </form>
+    </section>
+
+    <section id="harcelement">
+        <h2>Le harcèlement, qu'est-ce que c'est ?</h2>
+        <p>Le harcèlement se définit comme une violence répétée qui peut être verbale, physique et/ou psychologique. Le phénomène se prolonge parfois en ligne, on parle alors de cyberharcèlement.</p>
+        <p>Le cyberharcèlement, lui, est un harcèlement moral sur internet qui consiste à intimider et à humilier la victime par des messages d'insultes, des moqueries, des menaces, etc.</p>   
+        <p>Lorsque vous êtes victime de harcèlement, tout d'abord, parlez-en ! Le harceleur continuera s'il sent que vous restez enfermé dans cette situation. Vous ne devez absolument pas rester seul avec vos angoisses et votre mal-être. Confiez-vous à quelqu'un, proche (amis, parents...) ou à un membre de l'éducation nationale (CPE, infirmière scolaire de votre établissement, médecin, dans un Point Jeunes...).</p>
+
+        <p>Si vous êtes harcelé sur votre portable ou via les réseaux sociaux, vous pouvez en parallèle changer de numéro et fermer vos différents comptes, au moins temporairement.</p> 
+        
+        <p>Pour plus d'informations, consultez le site du Ministère de l'Éducation Nationale : <a href="https://www.education.gouv.fr/non-au-harcelement/qu-est-ce-que-le-harcelement-325361" target="_blank">Qu'est-ce que le harcèlement ?</a></p>
+        <p>Victime ou témoin de harcèlement ? Appelez le 3018.</p>
+        <p>Si vous souhaitez nous contacter, vous pouvez 
+        nous écrire via ce lien, qui renvoie à notre groupe Instagram : <a href="https://www.instagram.com/ambassadeur.harcelement.fermat/" target="_blank">Ambassadeur Harcèlement Fermat</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 LibéronsLaParole. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
